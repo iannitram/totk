@@ -24,3 +24,29 @@ games/totk/tools/totk_xlate/obj/
 games/totk/tools/totk_xlate/bin/
 games/totk/scripts/shader_inventory/obj/
 games/totk/scripts/shader_inventory/bin/
+
+# --- Standard setup: build artifacts
+bin/
+obj/
+build/
+out/
+*.o
+*.dll
+*.exe
+*.pdb
+.vs/
+.vscode/
+.idea/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# --- Standard setup: game-file guards (assets and keys live in a private folder outside every clone)
+assets/
+!games/*/assets/
+totk-assets/
+*.nro
+prod.keys
+title.keys
+*.rar
+*.pak
