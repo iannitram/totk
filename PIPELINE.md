@@ -1,7 +1,7 @@
 Stage: Parked
 Since: 2026-10-26
 Kind: mirror (upstream: ly05010419/MacNativeGames)
-Spec: upstream's   Roadmap: upstream's   Code map: none
+Spec: upstream's   Roadmap: upstream's   Code map: docs/code-map.md
 Platforms: mac, ios
 Notes: Reference mirror (board: Proposal, mode Sync-only). Agent rules for our pipeline: AGENTS.fork.md; our history: CHANGELOG.fork.md.
 
